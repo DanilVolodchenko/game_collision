@@ -71,7 +71,7 @@ class TestMacroCommand:
         """Пустая макрокоманда не должна падать."""
 
         macro = MacroCommand([])
-        macro.execute()  # исключений быть не должно
+        macro.execute()
 
 
 class TestGameField:
